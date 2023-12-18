@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Chrome Translator</title>
+    <script src="countries.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <label for="inputText">Your Text:</label>
+    <textarea id="inputText" rows="10" placeholder="Type text here....">
+
+    </textarea>
+
+    <div>
+        <label for="translateFrom">Translate From:</label>
+        <select id="translateFrom">
+            <option value="en">English</option>
+        </select>
+        <label for="translateTo">Translate To:</label>
+        <select id="translateTo">
+            <option value="es">Spanish</option>
+        </select>
+    </div>
+    <button id="translateBtn">Translate</button>
+    <button id="speakBtn">Speak</button>
+    <div id="outputText" aria-readonly="true">
+
+    </div>
+
+
+</body>
+</html>
